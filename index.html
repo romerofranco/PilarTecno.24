@@ -6,19 +6,38 @@
     <title>Learning Page</title>
   </head>
   <body>
-    <h1>First task</h1>
+    <h1 id="FirstTitle"><u>First task</u></h1>
+    <div>
     <ul>
       <li>
         <p>
           Generar una carpeta que sera nuestro espacio de trabajo (working
-          directoy) generar un archivo HTML que tenga formulario de contacto,
-          agregando CSS si se lo desea, utilizar los comandos aprendidos para
+          directoy) generar un archivo <b>HTML</b> que tenga formulario de contacto,
+          agregando <b>CSS</b> si se lo desea, utilizar los comandos aprendidos para
           preparar nuestra staging area para lo que se viene en nuestras
           proximas clases. <br /><br />
-          OPCIONAL: Generar un gif del proceso aun si sale erroneo, para poder
+          <u>OPCIONAL:</u> Generar un gif del proceso aun si sale erroneo, para poder
           ver el trabajo aprendido.
         </p>
       </li>
+    </div>
+    <h2><u>Formulario</u></h2>
+    <div id="Formulario">
+        <form method="post">
+            
+            <ul>
+            <li><input id='namef'  type='text' placeholder="Name" required></li>
+            <li><input id="LastNf" type="text" placeholder="Last Name" required></li>
+            <li><input id="Dateof" type="date" title="date of birth"></li>
+            <li><input id="Emailf" type="email" placeholder="Email"></li>
+            <li><input id="phonef" type="number" placeholder="Phone number" required></li>
+            <li><input type="submit" value="Enviar" required></li>
+            
+        </ul>  
+        </form>
+    </div>
+
+
     </ul>
   </body>
 </html>
